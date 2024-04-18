@@ -15,9 +15,9 @@ print('''
         Merry Christmas!
 ''')
 
-# r'' 声明单引号内容部转义
-print('tanbii \n world \\')
-print(r'tanbii \n world \\')
+# r'' 声明单引号内容不转义
+print('转义测试：换行 \n tanbii \n world \\')
+print(r'禁止内容转义测试：tanbii \n world \\')
 
 # 变量替换
 text= 'world'
